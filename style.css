@@ -1,44 +1,61 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #222;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f9;
+    color: #333;
     line-height: 1.6;
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 0;
+    padding: 0;
 }
 
+/* Контейнер */
+body {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовки */
 h1, h2, h3 {
+    color: #1a73e8;
     text-align: center;
-    color: #333;
 }
 
 h2 {
-    margin-top: 30px;
-    border-bottom: 1px solid #ccc;
+    margin-top: 40px;
+    border-bottom: 2px solid #1a73e8;
     padding-bottom: 5px;
 }
 
-p {
-    margin-bottom: 15px;
+h3 {
+    font-weight: normal;
+    color: #555;
 }
 
+/* Контактна інформація */
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+b {
+    color: #000;
+}
+
+/* Списки */
 ul {
     padding-left: 20px;
 }
 
+/* Footer */
 hr {
-    border: none;
-    height: 1px;
-    background-color: #ccc;
-    margin: 30px 0;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 40px 0;
 }
 
-footer, .footer-text {
-    text-align: center;
-    font-size: 0.9em;
-    color: #777;
+p[align="center"] {
+    font-size: 14px;
+    color: #999;
 }
